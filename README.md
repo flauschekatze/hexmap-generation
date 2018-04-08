@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Hex Map Generation
 
-You can use the [editor on GitHub](https://github.com/flauschekatze/hexmap-generation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Shortly, you'll find some musings on the generation of hex maps here. For now, though, it's all a bit empty until I write up what I've learned and tidy my atrocious Perl code enough to be readable. Watch this space.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Current TODO:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flauschekatze/hexmap-generation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Island Shapes (pen, paper and d6)
+* Make gifs
+* Clean & release Perl stuff
