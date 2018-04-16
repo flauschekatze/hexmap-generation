@@ -129,7 +129,7 @@ Start by picking a current hex, perhaps the centre hex of your grid. Fill it in.
 
 Roll two dice. The first die is your movement die, the second die is your direction die.
 
-If your movement die is __*less than or equal to the number of filled neighbours*__, you'll be __moving__: The direction die tells you in which direction to move. Find the next empty hex in that direction. If the distance between it and the current hex is no more than the value of your movement die, fill it in and consider it your new current hex. Otherwise, do nothing.
+If your movement die is __*less than or equal to the number of filled neighbours*__, you'll be __moving__: The direction die tells you in which direction to move. Find the next empty hex in that direction. *If the distance between it and the current hex is no more than the value of your movement die*, fill it in and consider it your new current hex. Otherwise, do nothing.
 
 If your movement die is __greater than that__, you'll be __filling__: The direction die tells you in which direction to fill a hex. If the hex in that direction is empty, fill it in. If it is already filled, do nothing.
 
@@ -158,3 +158,4 @@ If you're looking to give some feedback, the easiest way to engage with me is to
 
 * Generate 10k maps with each algorithm and post stats
 * Clean & release Perl stuff
+* Improve visualizations by also showing the "current" hex in each frame
