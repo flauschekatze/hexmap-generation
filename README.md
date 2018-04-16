@@ -1,6 +1,6 @@
 # Hex Map Generation
 
-#### Last Update: 2018-04-14 (Initial unpublished version without images)
+#### Last Update: 2018-04-16 (Initial published version)
 
 I've been interested in map generation for a while. There are a lot of resources out there on computer algorithms to use, but when I recently began looking into pen and paper roleplaying games again, I discovered [hexcrawls](https://arsphantasia.wordpress.com/2014/02/20/hexcrawl-resources/). These are essentially roleplaying campaigns set around exploring and there are various systems out there to aid the game master in creating landscapes to explore using dice rolls on tables to determine various aspects.
 
@@ -45,9 +45,13 @@ If you've now reached your target number of hexes, you are done. Otherwise, rero
 
 #### Results
 
+(All examples were generated with a target hex count of 24 hexes. The example images can be clicked to get an animated version showing the generation process.)
+
 This algorithm produces rather "spiky" islands with narrow "arms". There will be a bunch of backtracking to fully explore these landmasses.
 
-`TODO: Example images, stats`
+[![Example 1 - Click for animation](random-fill-and-move_1.svg)](random-fill-and-move_1.gif) [![Example 2 - Click for animation](random-fill-and-move_2.svg)](random-fill-and-move_2.gif) [![Example 3 - Click for animation](random-fill-and-move_3.svg)](random-fill-and-move_3.gif)
+
+`TODO: add stats`
 
 Let's try to curb the spikiness:
 
@@ -67,7 +71,9 @@ If you've now reached your target number of hexes, you are done. Otherwise, rero
 
 The spikiness is curbed a little, but the shapes are still not all that nice to explore.
 
-`TODO: Example images, stats`
+[![Example 3 - Click for animation](short-fill-and-move_1.svg)](short-fill-and-move_1.gif) [![Example 4 - Click for animation](short-fill-and-move_2.svg)](short-fill-and-move_2.gif) [![Example 5 - Click for animation](short-fill-and-move_3.svg)](short-fill-and-move_3.gif)
+
+`TODO: add stats`
 
 Next tweak: more predictable movement.
 
@@ -87,7 +93,9 @@ If you've now reached your target number of hexes, you are done. Otherwise, rero
 
 Again, an improvement, but not all that much. There are still occasional long, single-hex arms.
 
-`TODO: Example images, stats`
+[![Example 7 - Click for animation](count-and-move_1.svg)](count-and-move_1.gif) [![Example 8 - Click for animation](count-and-move_2.svg)](count-and-move_2.gif) [![Example 9 - Click for animation](count-and-move_3.svg)](count-and-move_3.gif)
+
+`TODO: add stats`
 
 Let's try to reduce the number of hexes with just a single neighbour.
 
@@ -109,7 +117,9 @@ If you've now reached your target number of hexes, you are done. Otherwise, rero
 
 Movement seems to be improved now, but just filling immediate neighbours is not entirely ideal either.
 
-`TODO: Example images, stats`
+[![Example 10 - Click for animation](count-and-move-two-plus_1.svg)](count-and-move-two-plus_1.gif) [![Example 11 - Click for animation](count-and-move-two-plus_2.svg)](count-and-move-two-plus_2.gif) [![Example 12 - Click for animation](count-and-move-two-plus_3.svg)](count-and-move-two-plus_3.gif)
+
+`TODO: add stats`
 
 Let's try to reduce the number of hexes with just a single neighbour.
 
@@ -129,12 +139,22 @@ If you've now reached your target number of hexes, you are done. Otherwise, rero
 
 Overall, I am satisfied with these results; they seem to generate shapes that will be possible to explore with a minimal amount of backtracking, while still offering some variation.
 
-`TODO: Example images, stats`
+[![Example 13 - Click for animation](count-and-move-limit-range_1.svg)](count-and-move-limit-range_1.gif) [![Example 14 - Click for animation](count-and-move-limit-range_2.svg)](count-and-move-limit-range_2.gif) [![Example 15 - Click for animation](count-and-move-limit-range_3.svg)](count-and-move-limit-range_3.gif)
 
+`TODO: add stats`
 
+### Conclusion, For Now:
+
+I believe it is absolutely possible to make pleasant random landmasses using only dice and essentially zero bookkeeping. My next efforts will probably focus on improved algorithms that require some minimal bookkeeping, like pencil marks in certain hexes during the process.
+
+Additionally, perhaps there are some good ways to reduce the number of dice rolls required. Right now, the algorithms above require between at least 2 dice rolls per hex on average.
+
+### Feedback
+
+If you're looking to give some feedback, the easiest way to engage with me is to contact me on Mastodon: My primary account is [@cardboard@dice.camp](https://dice.camp/@cardboard). I also have a [BGG account](https://boardgamegeek.com/user/pushing_cardboard), though I don't check that as frequently.
 
 
 ### Current TODO:
 
-* Make gifs/images
+* Generate 10k maps with each algorithm and post stats
 * Clean & release Perl stuff

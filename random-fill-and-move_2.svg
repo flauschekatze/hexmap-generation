@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="-10 -50 1370 1449">
+     <!-- min (01, 01), max (08, 07) -->
+  <defs>
+    <g id="plain">
+      <polygon fill="antiquewhite" points='-100.0,0.0 -50.0,86.6 50.0,86.6 100.0,0.0 50.0,-86.6 -50.0,-86.6' />
+    </g>
+    <g id="starter">
+      <polygon fill="darksalmon" points='-100.0,0.0 -50.0,86.6 50.0,86.6 100.0,0.0 50.0,-86.6 -50.0,-86.6' />
+    </g>
+  </defs>
+  <g id="backgrounds">
+    <use x="150.0" y="779.4" xlink:href="#plain" />
+    <use x="300.0" y="519.6" xlink:href="#plain" />
+    <use x="300.0" y="692.8" xlink:href="#starter" />
+    <use x="300.0" y="866.0" xlink:href="#plain" />
+    <use x="300.0" y="1039.2" xlink:href="#plain" />
+    <use x="300.0" y="1212.4" xlink:href="#plain" />
+    <use x="450.0" y="606.2" xlink:href="#plain" />
+    <use x="450.0" y="779.4" xlink:href="#plain" />
+    <use x="450.0" y="952.6" xlink:href="#plain" />
+    <use x="450.0" y="1125.8" xlink:href="#plain" />
+    <use x="600.0" y="519.6" xlink:href="#plain" />
+    <use x="600.0" y="692.8" xlink:href="#plain" />
+    <use x="600.0" y="866.0" xlink:href="#plain" />
+    <use x="600.0" y="1039.2" xlink:href="#plain" />
+    <use x="750.0" y="86.6" xlink:href="#plain" />
+    <use x="750.0" y="259.8" xlink:href="#plain" />
+    <use x="750.0" y="433.0" xlink:href="#plain" />
+    <use x="750.0" y="606.2" xlink:href="#plain" />
+    <use x="750.0" y="779.4" xlink:href="#plain" />
+    <use x="750.0" y="952.6" xlink:href="#plain" />
+    <use x="900.0" y="692.8" xlink:href="#plain" />
+    <use x="900.0" y="866.0" xlink:href="#plain" />
+    <use x="1050.0" y="606.2" xlink:href="#plain" />
+    <use x="1200.0" y="519.6" xlink:href="#plain" />
+  </g>
+  <g id="lines">
+  </g>
+  <g id="things">
+  </g>
+  <g id="coordinates">
+    <text text-anchor="middle" x="150.0" y="710.1" >01.05</text>
+    <text text-anchor="middle" x="300.0" y="450.3" >02.03</text>
+    <text text-anchor="middle" x="300.0" y="623.5" >02.04</text>
+    <text text-anchor="middle" x="300.0" y="796.7" >02.05</text>
+    <text text-anchor="middle" x="300.0" y="969.9" >02.06</text>
+    <text text-anchor="middle" x="300.0" y="1143.2" >02.07</text>
+    <text text-anchor="middle" x="450.0" y="536.9" >03.04</text>
+    <text text-anchor="middle" x="450.0" y="710.1" >03.05</text>
+    <text text-anchor="middle" x="450.0" y="883.3" >03.06</text>
+    <text text-anchor="middle" x="450.0" y="1056.6" >03.07</text>
+    <text text-anchor="middle" x="600.0" y="450.3" >04.03</text>
+    <text text-anchor="middle" x="600.0" y="623.5" >04.04</text>
+    <text text-anchor="middle" x="600.0" y="796.7" >04.05</text>
+    <text text-anchor="middle" x="600.0" y="969.9" >04.06</text>
+    <text text-anchor="middle" x="750.0" y="17.3" >05.01</text>
+    <text text-anchor="middle" x="750.0" y="190.5" >05.02</text>
+    <text text-anchor="middle" x="750.0" y="363.7" >05.03</text>
+    <text text-anchor="middle" x="750.0" y="536.9" >05.04</text>
+    <text text-anchor="middle" x="750.0" y="710.1" >05.05</text>
+    <text text-anchor="middle" x="750.0" y="883.3" >05.06</text>
+    <text text-anchor="middle" x="900.0" y="623.5" >06.04</text>
+    <text text-anchor="middle" x="900.0" y="796.7" >06.05</text>
+    <text text-anchor="middle" x="1050.0" y="536.9" >07.04</text>
+    <text text-anchor="middle" x="1200.0" y="450.3" >08.03</text>
+  </g>
+  <g id="hexes">
+    <polygon id="hex0105" fill="none" stroke="black" stroke-width="3" points="50.0,779.4 100.0,866.0 200.0,866.0 250.0,779.4 200.0,692.8 100.0,692.8" />
+    <polygon id="hex0203" fill="none" stroke="black" stroke-width="3" points="200.0,519.6 250.0,606.2 350.0,606.2 400.0,519.6 350.0,433.0 250.0,433.0" />
+    <polygon id="hex0204" fill="none" stroke="black" stroke-width="3" points="200.0,692.8 250.0,779.4 350.0,779.4 400.0,692.8 350.0,606.2 250.0,606.2" />
+    <polygon id="hex0205" fill="none" stroke="black" stroke-width="3" points="200.0,866.0 250.0,952.6 350.0,952.6 400.0,866.0 350.0,779.4 250.0,779.4" />
+    <polygon id="hex0206" fill="none" stroke="black" stroke-width="3" points="200.0,1039.2 250.0,1125.8 350.0,1125.8 400.0,1039.2 350.0,952.6 250.0,952.6" />
+    <polygon id="hex0207" fill="none" stroke="black" stroke-width="3" points="200.0,1212.4 250.0,1299.0 350.0,1299.0 400.0,1212.4 350.0,1125.8 250.0,1125.8" />
+    <polygon id="hex0304" fill="none" stroke="black" stroke-width="3" points="350.0,606.2 400.0,692.8 500.0,692.8 550.0,606.2 500.0,519.6 400.0,519.6" />
+    <polygon id="hex0305" fill="none" stroke="black" stroke-width="3" points="350.0,779.4 400.0,866.0 500.0,866.0 550.0,779.4 500.0,692.8 400.0,692.8" />
+    <polygon id="hex0306" fill="none" stroke="black" stroke-width="3" points="350.0,952.6 400.0,1039.2 500.0,1039.2 550.0,952.6 500.0,866.0 400.0,866.0" />
+    <polygon id="hex0307" fill="none" stroke="black" stroke-width="3" points="350.0,1125.8 400.0,1212.4 500.0,1212.4 550.0,1125.8 500.0,1039.2 400.0,1039.2" />
+    <polygon id="hex0403" fill="none" stroke="black" stroke-width="3" points="500.0,519.6 550.0,606.2 650.0,606.2 700.0,519.6 650.0,433.0 550.0,433.0" />
+    <polygon id="hex0404" fill="none" stroke="black" stroke-width="3" points="500.0,692.8 550.0,779.4 650.0,779.4 700.0,692.8 650.0,606.2 550.0,606.2" />
+    <polygon id="hex0405" fill="none" stroke="black" stroke-width="3" points="500.0,866.0 550.0,952.6 650.0,952.6 700.0,866.0 650.0,779.4 550.0,779.4" />
+    <polygon id="hex0406" fill="none" stroke="black" stroke-width="3" points="500.0,1039.2 550.0,1125.8 650.0,1125.8 700.0,1039.2 650.0,952.6 550.0,952.6" />
+    <polygon id="hex0501" fill="none" stroke="black" stroke-width="3" points="650.0,86.6 700.0,173.2 800.0,173.2 850.0,86.6 800.0,0.0 700.0,0.0" />
+    <polygon id="hex0502" fill="none" stroke="black" stroke-width="3" points="650.0,259.8 700.0,346.4 800.0,346.4 850.0,259.8 800.0,173.2 700.0,173.2" />
+    <polygon id="hex0503" fill="none" stroke="black" stroke-width="3" points="650.0,433.0 700.0,519.6 800.0,519.6 850.0,433.0 800.0,346.4 700.0,346.4" />
+    <polygon id="hex0504" fill="none" stroke="black" stroke-width="3" points="650.0,606.2 700.0,692.8 800.0,692.8 850.0,606.2 800.0,519.6 700.0,519.6" />
+    <polygon id="hex0505" fill="none" stroke="black" stroke-width="3" points="650.0,779.4 700.0,866.0 800.0,866.0 850.0,779.4 800.0,692.8 700.0,692.8" />
+    <polygon id="hex0506" fill="none" stroke="black" stroke-width="3" points="650.0,952.6 700.0,1039.2 800.0,1039.2 850.0,952.6 800.0,866.0 700.0,866.0" />
+    <polygon id="hex0604" fill="none" stroke="black" stroke-width="3" points="800.0,692.8 850.0,779.4 950.0,779.4 1000.0,692.8 950.0,606.2 850.0,606.2" />
+    <polygon id="hex0605" fill="none" stroke="black" stroke-width="3" points="800.0,866.0 850.0,952.6 950.0,952.6 1000.0,866.0 950.0,779.4 850.0,779.4" />
+    <polygon id="hex0704" fill="none" stroke="black" stroke-width="3" points="950.0,606.2 1000.0,692.8 1100.0,692.8 1150.0,606.2 1100.0,519.6 1000.0,519.6" />
+    <polygon id="hex0803" fill="none" stroke="black" stroke-width="3" points="1100.0,519.6 1150.0,606.2 1250.0,606.2 1300.0,519.6 1250.0,433.0 1150.0,433.0" />
+  </g>
+  <g id="labels">
+    <g><text text-anchor="middle" x="150.0" y="848.7"  >4</text><text text-anchor="middle" x="150.0" y="848.7" >4</text></g>
+    <g><text text-anchor="middle" x="300.0" y="588.9"  >3</text><text text-anchor="middle" x="300.0" y="588.9" >3</text></g>
+    <g><text text-anchor="middle" x="300.0" y="935.3"  >1</text><text text-anchor="middle" x="300.0" y="935.3" >1</text></g>
+    <g><text text-anchor="middle" x="300.0" y="1108.5"  >5</text><text text-anchor="middle" x="300.0" y="1108.5" >5</text></g>
+    <g><text text-anchor="middle" x="300.0" y="1281.7"  >6</text><text text-anchor="middle" x="300.0" y="1281.7" >6</text></g>
+    <g><text text-anchor="middle" x="450.0" y="675.5"  >16</text><text text-anchor="middle" x="450.0" y="675.5" >16</text></g>
+    <g><text text-anchor="middle" x="450.0" y="848.7"  >2</text><text text-anchor="middle" x="450.0" y="848.7" >2</text></g>
+    <g><text text-anchor="middle" x="450.0" y="1021.9"  >22</text><text text-anchor="middle" x="450.0" y="1021.9" >22</text></g>
+    <g><text text-anchor="middle" x="450.0" y="1195.1"  >23</text><text text-anchor="middle" x="450.0" y="1195.1" >23</text></g>
+    <g><text text-anchor="middle" x="600.0" y="588.9"  >8</text><text text-anchor="middle" x="600.0" y="588.9" >8</text></g>
+    <g><text text-anchor="middle" x="600.0" y="762.1"  >7</text><text text-anchor="middle" x="600.0" y="762.1" >7</text></g>
+    <g><text text-anchor="middle" x="600.0" y="935.3"  >20</text><text text-anchor="middle" x="600.0" y="935.3" >20</text></g>
+    <g><text text-anchor="middle" x="600.0" y="1108.5"  >21</text><text text-anchor="middle" x="600.0" y="1108.5" >21</text></g>
+    <g><text text-anchor="middle" x="750.0" y="155.9"  >17</text><text text-anchor="middle" x="750.0" y="155.9" >17</text></g>
+    <g><text text-anchor="middle" x="750.0" y="329.1"  >11</text><text text-anchor="middle" x="750.0" y="329.1" >11</text></g>
+    <g><text text-anchor="middle" x="750.0" y="502.3"  >10</text><text text-anchor="middle" x="750.0" y="502.3" >10</text></g>
+    <g><text text-anchor="middle" x="750.0" y="675.5"  >9</text><text text-anchor="middle" x="750.0" y="675.5" >9</text></g>
+    <g><text text-anchor="middle" x="750.0" y="848.7"  >12</text><text text-anchor="middle" x="750.0" y="848.7" >12</text></g>
+    <g><text text-anchor="middle" x="750.0" y="1021.9"  >13</text><text text-anchor="middle" x="750.0" y="1021.9" >13</text></g>
+    <g><text text-anchor="middle" x="900.0" y="762.1"  >14</text><text text-anchor="middle" x="900.0" y="762.1" >14</text></g>
+    <g><text text-anchor="middle" x="900.0" y="935.3"  >18</text><text text-anchor="middle" x="900.0" y="935.3" >18</text></g>
+    <g><text text-anchor="middle" x="1050.0" y="675.5"  >15</text><text text-anchor="middle" x="1050.0" y="675.5" >15</text></g>
+    <g><text text-anchor="middle" x="1200.0" y="588.9"  >19</text><text text-anchor="middle" x="1200.0" y="588.9" >19</text></g>
+  </g>
+<text>24 hexes, 46 rolls; width: 7, height: 6</text>
+<!-- Source
+0105 plain "4"
+0203 plain "3"
+0204 starter
+0205 plain "1"
+0206 plain "5"
+0207 plain "6"
+0304 plain "16"
+0305 plain "2"
+0306 plain "22"
+0307 plain "23"
+0403 plain "8"
+0404 plain "7"
+0405 plain "20"
+0406 plain "21"
+0501 plain "17"
+0502 plain "11"
+0503 plain "10"
+0504 plain "9"
+0505 plain "12"
+0506 plain "13"
+0604 plain "14"
+0605 plain "18"
+0704 plain "15"
+0803 plain "19"
+default attributes fill="none" stroke="black" stroke-width="3"
+plain attributes fill="antiquewhite"
+starter attributes fill="darksalmon"
+blank attributes fill="none" stroke="none" stroke-width="0"
+license <text>24 hexes, 46 rolls; width: 7, height: 6</text>
+-->
+</svg>
