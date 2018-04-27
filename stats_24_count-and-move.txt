@@ -1,0 +1,53 @@
+hexes: 10000 samples
+Range:    24.00-24.00 (0.00)
+Average:  24.00
+Median:   24.00
+Mode:     24.00
+Std. Dev: 0.00
+Variance: 0.00
+
+
+rolls: 10000 samples
+Range:    46.00-86.00 (40.00)
+Average:  57.68
+Median:   58.00
+Mode:     56.00
+Std. Dev: 5.49
+Variance: 30.18
+Skewness: 0.56
+Kurtosis: 0.40
+
+
+rolls_per_hex: 10000 samples
+Range:    1.92-3.58 (1.67)
+Average:  2.40
+Median:   2.42
+Mode:     2.33
+Std. Dev: 0.23
+Variance: 0.05
+Skewness: 0.56
+Kurtosis: 0.40
+
+
+width: 10000 samples
+Range:    2.00-14.00 (12.00)
+Average:  7.04
+Median:   7.00
+Mode:     7.00
+Std. Dev: 1.81
+Variance: 3.26
+Skewness: 0.42
+Kurtosis: 0.11
+
+
+height: 10000 samples
+Range:    2.00-13.00 (11.00)
+Average:  6.22
+Median:   6.00
+Mode:     6.00
+Std. Dev: 1.54
+Variance: 2.37
+Skewness: 0.57
+Kurtosis: 0.38
+
+
